@@ -100,7 +100,7 @@ CREATE TABLE Packaging(
 # Table: Payment
 #------------------------------------------------------------
 
-CREATE TABLE Payment(
+CREATE TABLE Payments(
         PaymentID Varchar (30) NOT NULL ,
         OrderID   Varchar (30) NOT NULL
 	,CONSTRAINT Payment_PK PRIMARY KEY (PaymentID)
